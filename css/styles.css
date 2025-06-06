@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    color: #111;
+    background: #f9f6f2;
+  }
+  
+  h1 {
+    font-size: 5rem;
+    line-height: 1.1;
+    color: #fff;
+  }
+  
+  h1 span {
+    display: block;
+  }
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    background: #000;
+    color: #fff;
+    padding: 0 5%;
+  }
+  
+  .hero-img img {
+    height: 100vh;
+    object-fit: cover;
+  }
+  
+  .hero-text {
+    flex: 1;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+  }
+  
+  .cta {
+    display: inline-block;
+    background-color: #2b9aa6;
+    color: #fff;
+    padding: 12px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .about {
+    display: flex;
+    padding: 60px 5%;
+    gap: 40px;
+    align-items: center;
+    background-color: #fff;
+  }
+  
+  .about-text {
+    flex: 1;
+  }
+  
+  .about-text h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .highlight {
+    color: #2b9aa6;
+    font-weight: bold;
+  }
+  
+  .about-text p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+  }
+  
+  .about-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .contact {
+    display: flex;
+    padding: 60px 5%;
+    gap: 40px;
+    align-items: center;
+    background-color: #f9f6f2;
+  }
+  
+  .contact-info {
+    flex: 1;
+  }
+  
+  .contact-info h2 {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 30px;
+  }
+  
+  .contact-info .label {
+    font-weight: bold;
+    color: #2b9aa6;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+  }
+  
+  .contact-info p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+  }
+  
+  .socials img {
+    width: 28px;
+    margin-right: 15px;
+    vertical-align: middle;
+  }
+  
+  .contact-img img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 5%;
+    font-size: 0.9rem;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
